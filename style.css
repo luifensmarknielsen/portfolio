@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(img/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-color: #EEEFF0;
+    margin: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 20px;
+}
+
+.grid-item {
+    font-size: 20px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.grid-item-right{
+    text-align: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a {
+    font-size: 15px;
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+}
+
+a:hover{
+    color: rgb(134, 134, 134);
+}
+
+.logo, .logo a{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.headline{
+    margin: 20px;
+    margin-top: 200px;
+}
+
+.headline p{
+    margin-top: 20px;
+    color: rgb(128, 128, 128);
+}
+
+.headlineButtons button{
+    padding: 15px 30px;
+    margin-top: 30px;
+    outline: none;
+    border-radius: 200px;
+    margin-bottom: 40px;
+}
+
+.kode{
+    margin-left: 15px;
+    background-color: none;
+    border: 1px solid #646464;
+    cursor: pointer;
+}
+
+.artwork{
+    background-color: none;
+    border: 1px solid #646464;
+    color: black;
+    cursor: pointer;
+}
+
+.headline_contact{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.education{
+    font-size: 13px;
+}
